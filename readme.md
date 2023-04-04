@@ -4,7 +4,7 @@
  * You have Python3 installed and can use a terminal (commandline) 
  * This works with type 0 MIDI files - i.e. those that have a single track
  * you give different names for the output and input file (otherwise you will overwrite your input file)
- * to play MIDI files you have a sound font installed (if you are generating the MIDI files this is likely true - if not then [https://archive.org/details/fluidr3-gm-gs](https://archive.org/details/fluidr3-gm-gs) or [https://launchpad.net/ubuntu/+source/fluid-soundfont](https://launchpad.net/ubuntu/+source/fluid-soundfont) may, at your own risk, provide the necessary file (the FluidR3 soundfont file by Frank Wen which seems to be a widely available soundfont used in open-source projects).
+ * to play MIDI files you have a sound font installed (if you are generating the MIDI files this is likely true - if not then [https://archive.org/details/fluidr3-gm-gs](https://archive.org/details/fluidr3-gm-gs) or [https://launchpad.net/ubuntu/+source/fluid-soundfont](https://launchpad.net/ubuntu/+source/fluid-soundfont) may, at your own risk, provide the necessary file - the FluidR3 soundfont file by Frank Wen which seems to be a widely available soundfont used in open-source projects).
  
 
 
