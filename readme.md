@@ -38,6 +38,18 @@ and make the processor.py file executable using the following command in termina
 
 # Running the script
 
-Having done all the above you are now ready to use the processor.py script. Here is an example - having created a simple midi file (a sample midi file  is provided just in case - and you can download it into the same folder you created the virtual environment in) this example command would output the scales file at double speed - including twice the silence at the beginning.
+Having done all the above you are now ready to use the processor.py script. 
 
-`./processor.py scales.mid doublespeed.mid 2`
+An example use is:
+
+`./processor.py scales.mid twiceaslong.mid 2`
+
+This script takes 3 parameters
+
+1. the input MIDI file (here in the same directory and called `scales.mid`)
+2. the output MIDI filename (here in the same directory and called `twiceaslong.mid`)
+3. a multiple - integer or decimal - used to multiple the time of the MIDI messages - here this is `2` so the file will play at approximately halfspeed taking twice as long (hence output file name of `twiceaslong.mid` used as example - though it could be called anything ending `.mid`)
+
+If you fail to provide these oarameters the script should print a reminder and then exit.
+
+Use your own input MIDI file (provided it is a type 0 MIDI file with a single track) but in case you need a test MIDI file one called scales.mid is provided in this repository - it just goes up and down the keys on a piano).
