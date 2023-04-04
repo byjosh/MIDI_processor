@@ -14,15 +14,15 @@ If you have not got Python3 installed - [download and install it](https://www.py
 
 Run following commands in terminal
 
-Make folder that is a Python 3 virtual environment to copy the script into
+Make folder that is a Python 3 [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) to copy the script into
 
-` python3 -m venv name_of_folder_for_virtual_enviroment`
+` python3 -m venv name_of_folder_for_virtual_environment`
 
-change to folder
+change current directory to folder you just created
 
-`cd name_of_folder_for_virtual_enviroment`
+`cd name_of_folder_for_virtual_environment`
 
-activate virtual enviroment
+now inside the folder you created activate virtual environment you created
 
 `source bin/activate`
 
@@ -30,7 +30,7 @@ Install [mido](https://mido.readthedocs.io/)
 
 `pip install mido`
 
-At this point download the processor.py file into the folder you have create
+At this point download the processor.py file in this Github repository into the folder you have created
 and make the processor.py file executable using the following command in terminal
 
 `chmod +x processory.py`
