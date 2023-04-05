@@ -12,7 +12,7 @@
 
 If you have not got Python3 installed - [download and install it](https://www.python.org/downloads/)
 
-Run following commands in terminal
+Run following commands in [terminal](https://support.apple.com/en-gb/guide/terminal/apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac)
 
 Make folder that is a Python 3 [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) to copy the script into
 
