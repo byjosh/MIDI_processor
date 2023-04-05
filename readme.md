@@ -50,6 +50,6 @@ This script takes 3 parameters
 2. the output MIDI filename (here in the same directory and called `twiceaslong.mid`)
 3. a multiple - integer or decimal - used to multiple the time of the MIDI messages - here this is `2` so the file will play at approximately halfspeed taking twice as long (hence output file name of `twiceaslong.mid` used as example - though it could be called anything ending `.mid`)
 
-If you fail to provide these oarameters the script should print a reminder and then exit.
+If you fail to provide these parameters the script should print a reminder and then exit.
 
 Use your own input MIDI file (provided it is a type 0 MIDI file with a single track) but in case you need a test MIDI file one called scales.mid is provided in this repository - it just goes up and down the keys on a piano).
